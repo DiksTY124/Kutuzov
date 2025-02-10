@@ -1,0 +1,111 @@
+@font-face{
+	 font-family: "macherie";
+	 src: url("../../fonts/macherie.woff2")
+}
+
+@font-face{
+	 font-family: "Bookerly";
+	 src: url("../../fonts/Bookerly.woff2")
+}
+
+@font-face{
+	 font-family: "Sonic_Movie_logo_font";
+	 src: url("../../fonts/Sonic_Movie_logo_font.woff2")
+}
+
+.font2{
+	font-family: "Bookerly"
+}
+
+.font{
+  	font-family: "macherie"
+}
+
+.font3{
+	font-family: "Sonic_Movie_logo_font";
+}
+
+.one{
+      width: 1000px;
+      height: 800px;
+      padding: 20px 70px;
+      margin: auto;
+	  
+}
+
+.img{
+	max-width: 100%; 
+    height: auto;
+}
+
+body{
+	background-image: url(../../IMG/5488082.png);
+	background-color: #0F0F0F;
+	color: white;
+	background-size:cover;
+}
+
+html, body{
+margin: 0;
+padding: 0;
+}
+
+::selection {
+background: #790F0F;
+}
+
+a{
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#button{ 
+	border: solid white; 
+	padding: 20px;
+	background-color: rgba(28,28,28,0); 
+	color: white;
+	transition: 0.5s;
+	width: 100%;
+	font-size: 25px;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+
+#button:hover{
+-webkit-box-shadow: 0px 0px 100px 10px rgba(255, 255, 255, 0.7);
+-moz-box-shadow: 0px 0px 100px 10px rgba(255, 255, 255, 0.7);
+box-shadow: 0px 0px 100px 10px rgba(255, 255, 255, 0.7);
+}
+
+#block{
+	width: 100%;
+	height: 10px;
+	background-color: white;
+}
+
+#block2{
+	width: 100%;
+	height: 100px;
+	background-color: #181818;
+	margin-top: 500px;
+}
+
+#button2{ 
+	border: solid white; 
+	padding: 20px;
+	background-color: rgba(28,28,28,0); 
+	color: white;
+	transition: 0.5s;
+	width: 100%;
+	font-size: 25px;
+	margin: 10px 0px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#button2:hover{
+-webkit-box-shadow: 0px 0px 100px 10px rgba(255, 255, 255, 0.7);
+-moz-box-shadow: 0px 0px 100px 10px rgba(255, 255, 255, 0.7);
+box-shadow: 0px 0px 100px 10px rgba(255, 255, 255, 0.7);
+	opacity: 1;
+}
